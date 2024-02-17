@@ -29,7 +29,6 @@ export default function LoginPage() {
     event.preventDefault();
 
     console.log('로그인 시도: ', id, password);
-    // 테스트 코드
     navigate('/main');
 
     // 로그인 API 요청 및 처리 로직
